@@ -1,11 +1,76 @@
-main {
-    background-color:   hsl(30, 54%, 90%);
+.card {
+    display:block;
+    
+    margin-left: auto;
+	margin-right: auto;
+    max-width: 30%;
+	max-height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 125px;
     
     
-   }
-.main  {
-    color: black;
+    background-color: #fff;
+     
+}
+h1{
+    font-family: 'Young Serif';
+}
+h2 {
+    font-family: 'Young serif';
+    color: #854632
+}
+p {
+    font-family: 'Outfit';
+}
+.bold-word {
+    font-weight: bold;
+    color: #5f564d;
+}
+.prep {
+    font-family: 'Outfit';
+    font-size: 20px;
+    color: #7a284e;
+    font-weight: 900;
+    
+}
+img {
+    max-width: 100%;
+}
+
+.time {
+    display:block;
+    
+    margin-left: auto;
+	margin-right: auto;
+    max-width: 75%;
+	
+    border-radius: 10px;
     
     
-    
+    text-align: start;
+    background-color: rgba(255, 247, 251, 1);;
+     
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .label {
+    text-align: center;
+    width: 30%;
+    padding-right: 30%;
+  }
+
+  .measurement {
+    color:#854632;
+    font-weight: bold;
+  }
+  
+html {
+
+    background-color: #f3e5d7;
 }
